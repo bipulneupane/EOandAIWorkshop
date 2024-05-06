@@ -72,7 +72,7 @@ train_edns_with_augmentation(model_name='Unet', cnn_name='resnet34', data_type='
 #### Detailed Jupyter Notebooks for easy usage
 
 There are two Jupyter Notebooks inside `notebook` folder for easy usage of this GitHub. 
-1. `Locate_downloader.ipynb` - Upload this notebook to your Google Drive and run the notebook to prepare clone this repo, setup correct folders, download the dataset and trained model checkpoints. Run this notebook only for the first time you setup the files in your Google Drive.
+1. `Locate_downloader.ipynb` - Upload this notebook to your Google Drive and run the notebook to clone this repo, set up correct folders, and download the dataset and the trained model checkpoints. Run this notebook only for the first time you set up the files in your Google Drive.
 2. `Train-SMpytorch.ipynb` - Find this notebook in your recently cloned GitHub folder inside your Google Drive. The notebook is easy to follow and contains all the required codes.
 
 
@@ -86,7 +86,11 @@ Please view `Train-SMpytorch.ipynb` inside `notebook` folder for more details.
 
 ### Contributors
 
-Special thanks to Contributor Sumesh KC (kcsumesh1993@gmail.com).
+- Sumesh KC (kcsumesh1993@gmail.com).
+
+### Acknowledgement
+
+Special thanks to the authors and contributors of [Segmentation Models Pytorch](https://github.com/qubvel/segmentation_models.pytorch), without whom the creation of this GitHub would not have been possible.
 
 ### License
 
@@ -94,5 +98,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ### Contact
 
+We hope this project helps you in your efforts to advance the state of image segmentation using deep learning. For any issues or further inquiries, feel free to reach out through GitHub issues or via email.
+
 Bipul Neupane - geomat.bipul@gmail.com; bneupane@student.unimelb.edu.au
+University of Melbourne, Earth Observation and AI Research Group
 
