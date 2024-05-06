@@ -86,7 +86,7 @@ Please view `Train-SMpytorch.ipynb` inside `notebook` folder for more details.
 
 ### Contributors
 
-Special thanks to Contributor Sumesh KC (mailto:kcsumesh1993@gmail.com).
+Special thanks to Contributor Sumesh KC (kcsumesh1993@gmail.com).
 
 ### License
 
