@@ -13,6 +13,21 @@ This repository contains Python modules for training and domain adapting any Enc
     * Transfer learning
     * Data augmentation
     * Automated data pipeline with API services
+  
+## Python Modules
+
+This GitHub provides several custom Python modules to help you with smooth workflow in the tutorial provided in Jupyter Notebook `Train-SMpytorch.ipynb` inside `notebook` folder. The modules are:
+
+1. `custom_data_loader`: a custom Dataset function to read images, apply augmentation and preprocessing transformations
+2. `data_preprocessing`: creates a pipeline of augmentation strategies for training data
+3. `binary_focal_loss_smp`: an implementation of Focal Loss with smooth label cross entropy which is proposed in 'Focal Loss for Dense Object Detection' (https://arxiv.org/abs/1708.02002)
+4. `model_fetcher`: fetches a segmentation model, an optimizer, and a loss function
+5. `model_trainer`: trains a specified segmentation model with provided configurations
+6. `model_evaluate`: evaluates a segmentation model with provided configurations
+7. `model_prediction_visualiser`: visualizes predictions using a pre-trained model by displaying the original image along with its ground truth and predicted segmentation masks
+8. `model_adapt_transfer_learning`: performs domain adaptation for a specified segmentation model with provided configurations
+9. `model_trainer_with_augmentation`: trains a specified segmentation model with provided configurations and augmentations
+
 
 ## Getting Started
 
