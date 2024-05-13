@@ -56,6 +56,17 @@ cd your-repository-name
 
 ## Usage
 
+### Setting-up in Google Drive
+
+1. Download the Locate_downloader notebook from the ```notebook``` folder.
+2. Upload it to your Google Drive.
+3. If not already, install Google Colaboratory in your Google Drive.
+4. Open the Locate_downloader notebook with the Colab app.
+5. Run the cells that will clone the GitHub to your Google Drive, and download the training dataset and the saved models.
+6. Once completed, you can close the Locate_downloader notebook.
+7. Next, find the 'Train-SMpytorch' notebook inside the 'EOandAIworkshop' folder that is newly created in your Google Drive.
+8. Follow the tutorials in the 'Train-SMpytorch' notebook.
+
 ### Training a Model
 
 To train a model, use the `train_edns` function from the `model_trainer.py`:
